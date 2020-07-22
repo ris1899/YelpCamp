@@ -10,7 +10,7 @@ var express         = require("express"),
    //seedDB	       = require("./seeds"),
    Comment         = require("./models/comment");	
 
-//==========================================================================
+//============================================================================
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
